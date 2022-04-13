@@ -189,12 +189,9 @@ nav ul button:hover {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .future .text {
     text-align: center;
-  }
-  .future .icon {
-    margin: 0 auto;
   }
   .future .icon {
     margin: 0 auto;
