@@ -135,11 +135,11 @@ nav ul button:hover {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  z-index: 5;
 }
 .landing .text button:hover {
   color: black !important;
   background-color: white !important;
-  z-index: 5;
 }
 .lright {
   position: absolute;
