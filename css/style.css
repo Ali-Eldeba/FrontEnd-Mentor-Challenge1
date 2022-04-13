@@ -68,7 +68,7 @@ nav ul button:hover {
   }
   nav .bar {
     display: block !important;
-    width: fit-content;
+    width: 35px;
     cursor: pointer;
   }
 }
@@ -138,6 +138,7 @@ nav ul button:hover {
 .landing .text button:hover {
   color: black !important;
   background-color: white !important;
+  z-index: 5;
 }
 .lright {
   position: absolute;
