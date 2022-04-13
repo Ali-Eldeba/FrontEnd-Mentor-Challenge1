@@ -25,6 +25,14 @@ ul {
 .container {
   position: relative;
 }
+.heading::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30%;
+  background-color: #ddd;
+  top: -30px;
+}
 /* Starting Nav  */
 nav {
   display: flex;
@@ -78,6 +86,7 @@ nav ul button:hover {
   height: calc(100vh - 80px);
   background: hsl(256, 26%, 20%);
   position: relative;
+  margin-bottom: 25%;
 }
 .landing .container {
   height: 100%;
@@ -89,36 +98,8 @@ nav ul button:hover {
   color: white;
   position: relative;
 }
-.landing .text p {
-  font-size: 11px;
-}
-.landing .text .text::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 30%;
-  background-color: white;
-  top: -30px;
-}
 .landing img {
-  margin-top: 50px;
-}
-@media (max-width: 991px) {
-  .landing {
-    height: fit-content;
-    padding-bottom: 20px;
-  }
-  .landing .container {
-    flex-direction: column;
-  }
-  .landing img {
-    order: -1;
-    width: 100%;
-    margin: 50px 0 20px 0;
-  }
-  .landing .text p {
-    font-size: 16px;
-  }
+  margin-top: 120px;
 }
 .landing .text button {
   padding: 10px 30px;
@@ -137,6 +118,27 @@ nav ul button:hover {
   -o-transition: 0.3s;
   z-index: 5;
 }
+@media (max-width: 991px) {
+  .landing {
+    height: fit-content;
+    padding-bottom: 20px;
+  }
+  .landing .container {
+    flex-direction: column;
+  }
+  .landing img {
+    order: -1;
+    width: 100%;
+    margin: 0 0 20px 0;
+    z-index: 5;
+  }
+  .landing .text p {
+    font-size: 16px;
+  }
+  .landing .text {
+    text-align: center;
+  }
+}
 .landing .text button:hover {
   color: black !important;
   background-color: white !important;
@@ -147,17 +149,55 @@ nav ul button:hover {
   right: 0;
   height: 80%;
 }
-@media (max-width: 768px) {
- .right {
-    width: 20%;
-  }
-}
 .lleft {
   position: absolute;
   bottom: -50%;
   left: 0;
   height: 80%;
   width: 25%;
-  z-index: -1;
+}
+@media (max-width: 768px) {
+  .lright {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .lright {
+    width: 20%;
+    top: 90%;
+  }
+  .lleft {
+    top: 25%;
+  }
 }
 /* Ending Landing */
+/* Starting Future */
+.future .icons {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.future .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .future .text {
+    text-align: center;
+  }
+  .future .icon {
+    margin: 0 auto;
+  }
+  .future-head {
+    text-align: center;
+  }
+}
+/* Ending Future */
