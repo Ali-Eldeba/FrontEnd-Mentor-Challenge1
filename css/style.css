@@ -188,6 +188,8 @@ nav ul button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 375px) {
   margin: 0 auto;
 }
 @media (max-width: 768px) {
