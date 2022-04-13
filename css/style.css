@@ -149,7 +149,7 @@ nav ul button:hover {
 }
 @media (max-width: 768px) {
  .right {
-    width: 50%;
+    width: 20%;
   }
 }
 .lleft {
@@ -158,5 +158,6 @@ nav ul button:hover {
   left: 0;
   height: 80%;
   width: 25%;
+  z-index: -1;
 }
 /* Ending Landing */
