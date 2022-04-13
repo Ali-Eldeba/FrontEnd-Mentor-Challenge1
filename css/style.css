@@ -189,7 +189,7 @@ nav ul button:hover {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 540px) {
   margin: 0 auto;
 }
 @media (max-width: 768px) {
