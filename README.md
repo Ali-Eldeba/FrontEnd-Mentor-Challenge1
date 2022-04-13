@@ -1,5 +1,5 @@
 # This is a Challenge from FrontEnd Mentor
-> **Progress Done**
+> Progress Done
 * [x] Nav Bar
 * [x] Landing Section
 * [x] Future Section
