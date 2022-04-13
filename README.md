@@ -3,5 +3,5 @@
 ---
 * [x] Nav Bar
 * [x] Landing Section
-* [ ] Future Section
+* [x] Future Section
 * [ ] Footer
