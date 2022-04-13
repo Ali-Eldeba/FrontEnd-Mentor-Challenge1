@@ -62,7 +62,7 @@ nav ul button:hover {
   color: white !important;
   background-color: black !important;
 }
-@media (max-width: 776px) {
+@media (max-width: 768px) {
   nav ul {
     display: none;
   }
@@ -145,6 +145,11 @@ nav ul button:hover {
   top: 0;
   right: 0;
   height: 80%;
+}
+@media (max-width: 768px) {
+ .right {
+    width: 50%;
+  }
 }
 .lleft {
   position: absolute;
