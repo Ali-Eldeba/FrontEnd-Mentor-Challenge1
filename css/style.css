@@ -80,6 +80,7 @@ nav ul button:hover {
   position: relative;
 }
 .landing .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
