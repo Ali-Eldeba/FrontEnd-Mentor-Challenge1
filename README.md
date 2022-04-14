@@ -1,4 +1,4 @@
-# This is a Challenge from [FrontEnd Mentor](https://www.frontendmentor.io/)
+### This is a Challenge from [FrontEnd Mentor](https://www.frontendmentor.io/)
 > Progress Done
 * [x] Header
 * [x] Landing Section
