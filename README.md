@@ -1,8 +1,8 @@
 # This is a Challenge from FrontEnd Mentor
 > Progress Done
-* [x] Nav Bar
+* [x] Header
 * [x] Landing Section
 * [x] Future Section
-* [ ] Footer
+* [ ] Footer Section
 ---
-[Website Page](https://ali-eldeba.github.io/FrontEnd-Mentor-Challenge1/)
+[Live Review](https://ali-eldeba.github.io/FrontEnd-Mentor-Challenge1/)
