@@ -22,6 +22,9 @@ ul {
   align-items: center;
   list-style: none;
 }
+li {
+  cursor: pointer;
+}
 .logo {
   cursor: pointer;
 }
@@ -317,6 +320,9 @@ footer .svg {
 footer img {
   padding: 0 5px;
 }
+footer .icons img {
+  cursor: pointer;
+}
 @media (max-width: 400px) {
   footer .contact {
     flex-direction: column;
@@ -335,10 +341,10 @@ footer img {
 .box p {
   margin-bottom: 20px;
   color: #ddd;
+  padding-left: 20px;
 }
 .box ul {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 /* Ending Footer */
