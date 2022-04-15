@@ -6,6 +6,9 @@
 body {
   font-family: "Karla", sans-serif !important;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1,
 h2,
 h3,
@@ -70,6 +73,10 @@ nav ul button:hover {
   color: white !important;
   background-color: black !important;
 }
+.close {
+  width: 35px;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   nav ul {
     display: none;
@@ -79,6 +86,50 @@ nav ul button:hover {
     width: 35px;
     cursor: pointer;
   }
+}
+header {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: hsl(270, 9%, 17%);
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+}
+header svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+header ul {
+  width: 100% !important;
+  margin-top: 30px;
+}
+header ul > * {
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+}
+header button {
+  margin: 10px 15px 0 !important;
+  padding: 10px 50px;
+  color: white !important;
+  border: white 2px solid !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+header button:hover {
+  color: black !important;
+  background-color: white !important;
 }
 /* Ending Nav  */
 /* Starting Landing */
@@ -184,10 +235,11 @@ nav ul button:hover {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: violet;
+  background-color: hsl(216, 30%, 68%);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 @media (max-width: 991px) {
   .future .text {
@@ -201,3 +253,92 @@ nav ul button:hover {
   }
 }
 /* Ending Future */
+/* Starting Find */
+.find {
+  position: relative;
+  background: hsl(256, 26%, 20%);
+  align-items: center;
+  padding: 30px;
+  overflow: hidden;
+}
+.find svg {
+  position: absolute;
+  right: 0;
+}
+.find h1 {
+  color: white;
+  z-index: 5;
+}
+@media (max-width: 600px) {
+  .find {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .find h1 {
+    text-align: center;
+  }
+}
+.find button {
+  margin: 10px 15px 0 !important;
+  padding: 0 30px;
+  height: 50px;
+  color: white !important;
+  border: white 2px solid !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  z-index: 5;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.find button:hover {
+  color: black !important;
+  background-color: white !important;
+}
+/* Ending Find */
+/* Starting Footer */
+footer {
+  background: hsl(0, 0%, 98%);
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+footer .svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer img {
+  padding: 0 5px;
+}
+@media (max-width: 400px) {
+  footer .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .contact .logo {
+    width: 50%;
+  }
+}
+.box {
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.box p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+.box ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* Ending Footer */
