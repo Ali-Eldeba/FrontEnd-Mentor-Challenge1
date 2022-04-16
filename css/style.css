@@ -135,6 +135,14 @@ header button:hover {
   color: black !important;
   background-color: white !important;
 }
+@media (min-width: 769px) {
+  .close {
+    display: none !important;
+  }
+  .mobile-header {
+    display: none !important;
+  }
+}
 /* Ending Nav  */
 /* Starting Landing */
 .landing {
