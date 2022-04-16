@@ -249,7 +249,7 @@ header button:hover {
     text-align: center;
   }
   .future .icon {
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .future-head {
     text-align: center;
