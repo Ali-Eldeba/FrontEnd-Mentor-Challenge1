@@ -119,6 +119,7 @@ header button {
   color: white !important;
   border: white 2px solid !important;
   background-color: transparent !important;
+  z-index: 5 !important;
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -250,7 +251,7 @@ header button:hover {
 .future-head {
   text-align: left !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .future .text {
     text-align: center !important;
   }
