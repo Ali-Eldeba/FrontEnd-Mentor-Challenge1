@@ -3,6 +3,7 @@
 * [x] Header
 * [x] Landing Section
 * [x] Future Section
-* [ ] Footer Section
+* [x] Find Section
+* [x] Footer Section
 ---
 [Live Review](https://ali-eldeba.github.io/FrontEnd-Mentor-Challenge1/)
