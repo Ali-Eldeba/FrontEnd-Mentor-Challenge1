@@ -244,15 +244,21 @@ header button:hover {
   justify-content: center;
   color: white;
 }
+.future .text {
+  text-align: left !important;
+}
+.future-head {
+  text-align: left !important;
+}
 @media (max-width: 768px) {
   .future .text {
-    text-align: center;
+    text-align: center !important;
   }
   .future .icon {
     margin: 0 auto !important;
   }
   .future-head {
-    text-align: center;
+    text-align: center !important;
   }
 }
 /* Ending Future */
