@@ -53,7 +53,7 @@ nav ul li {
   text-transform: uppercase;
   margin: 10px 15px 0;
   cursor: pointer;
-  color: #ddd;
+  color: #282828;
 }
 nav ul li:hover {
   color: black;
