@@ -9,6 +9,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+img {
+  user-select: none;
+}
 h1,
 h2,
 h3,
